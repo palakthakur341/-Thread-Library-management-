@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build memory management",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "C:/Users/hp/OneDrive/Documents/Thread management/user_thread.cpp",  // Your source code file path
+          "-o",
+          "C:/Users/hp/OneDrive/Documents/Thread management/user_thread.exe" // Output executable path
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$msCompile"],
+        "detail": "Generated task by Debugger."
+      }
+    ]
+  }
+  
